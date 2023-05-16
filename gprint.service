@@ -1,0 +1,17 @@
+[Unit]
+Description=Photobooth Service
+
+[Service]
+SuccessExitStatus=143
+
+User=pi
+Group=pi
+
+Type=simple
+
+WorkingDirectory=${WORKDIR}
+ExecStart=python3 overlay_drm.py
+ExecStop=/bin/kill -15 $MAINPID
+
+[Install]
+WantedBy=multi-user.target

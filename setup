@@ -1,0 +1,14 @@
+rspi setup 
+https://www.waveshare.com/wiki/Template:4inch_HDMI_LCD_Manual
+
+display settings in config.txt:
+
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt 800 480 60 6 0 0 0
+hdmi_drive=1
+dtoverlay=ads7846,cs=1,penirq=25,penirq_pull=2,speed=50000,keep_vref_on=0,swa+rpxy=0,pmax=255,xohms=150,xmin=200,xmax=3900,ymin=200,ymax=3900
+display_rotate=1
+
+
+2: update apt dependencies in order to update libcamera
