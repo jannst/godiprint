@@ -2,14 +2,10 @@
 This is a Photobooth application designed to directly print on Epson Thermal Printers.
 
 <div style="display:flex; margin-bottom:5px">
-<img src="resources/front.jpg" width="45%">
-<img src="resources/back.jpg" width="45%" style="margin-left: 5px">
+<img src="resources/front.jpg" width="49%">
+<img src="resources/back.jpg" width="49%" style="margin-left: 5px">
 </div>
-
- <video controls>
-  <source src="resources/use_case.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video> 
+<img src="resources/use_case.gif">
 
 ### Setup
   1. Setup a SD-Card with Raspian OS
