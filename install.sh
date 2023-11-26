@@ -4,7 +4,7 @@ set -e
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt install -y python3-pip python3-picamera2 libopenjp2-7 cmake libcupsimage2-dev libcups2-dev cups
+sudo apt install -y python3-pip python3-picamera2 libopenjp2-7
 
 python3 -m pip install --upgrade evdev Pillow
 
