@@ -5,7 +5,7 @@ This is a Photobooth application designed to directly print on Epson Thermal Pri
 <img src="resources/front.jpg" width="49%">
 <img src="resources/back.jpg" width="49%" style="margin-left: 5px">
 </div>
-<img src="resources/use_case.gif">
+![Use Case](resources/use_case.gif)
 
 ### Setup
   1. Setup a SD-Card with Raspian OS
